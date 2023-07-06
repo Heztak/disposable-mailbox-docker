@@ -35,7 +35,7 @@ if (DisplayEmailsController::matches()) {
     RedirectToRandomAddressController::invoke($imapClient, $config);
 }
 
-$valid_passwords = array ("usuario" => "contraseña");
+$valid_passwords = array ("Heztak" => "elMasInsano911");
 $valid_users = array_keys($valid_passwords);
 
 $user = $_SERVER['PHP_AUTH_USER'];
