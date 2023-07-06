@@ -33,4 +33,4 @@ $config['delete_messages_older_than'] = '14 days ago';
 $config['blocked_usernames'] = array('root', 'admin', 'administrator', 'hostmaster', 'postmaster', 'webmaster');
 
 // Mails are usually show as Text and only if not available as HTML. You can turn this around to prefer HTML over text.
-$config['prefer_plaintext'] = true;
+//$config['prefer_plaintext'] = true;
